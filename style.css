@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Concrete';
+    src: url('fonts/Concrete-Regular.eot');
+    src: url('fonts/Concrete-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Concrete-Regular.woff2') format('woff2'),
+        url('fonts/Concrete-Regular.woff') format('woff'),
+        url('fonts/Concrete-Regular.ttf') format('truetype'),
+        url('fonts/Concrete-Regular.svg#Concrete-Regular') format('svg');
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.firstcontainer {
+    background-color: #799c44;
+    height: 750px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    height: 90px;
+    flex-flow: row;
+}
+
+.logo {
+    align-self: center;
+    align-items: center;
+    width: 10%;
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+}
+
+.menuU {
+    width: 90%;
+    text-align: right;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.menuU ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuU a {
+    font-family: ibm plex sans;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+    display:inline-block;
+    margin-top: 5px;
+}
+
+.menuU a:hover {
+    margin-top: -10px;
+    transition: 0.5s;
+}
+
+.menuU li {
+    display: inline-block;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.main {
+    height: 670px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 50%;
+    /* border:solid 1px #ffffff; */
+}
+
+.block h1 {
+    font-family: concrete;
+    font-size: 55pt;
+    color: #ffffff;
+    font-weight: 300;
+    padding-top: 120px;
+}
+
+.block h2 {
+    font-family: ibm plex sans;
+    font-size: 14pt;
+    font-weight: 400;
+    padding-top: 8px;
+    color: #ffffff;
+}
+
+.block button {
+    border: 2px solid #FF9B00;
+    border-radius: 40px;
+    background-color: #FF9B00;
+    color: #ffffff;
+    font-family: ibm plex sans;
+    font-size: 16pt;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.block button:hover {
+    color:#FF9B00;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.photo {
+    justify-content: end;
+    
+}
+
+.photo img {
+    height: 570px;
+    width: auto;
+}
+
+
+.secondcontainer {
+    background-color: #ffffff;
+    padding: 0;
+    display: flex;
+    width: 1400px;
+    margin: 0 auto; 
+    height: 700px;   
+}
+
+.about {
+    display: flex;
+}
+
+.about h1 {
+    color: #000000;
+    font-family: concrete;
+    font-weight: 400;
+    font-size: 30pt;
+    padding-top: 180px;
+}
+
+.textblock {
+    width: 50%;
+}
+
+.about .other {
+    width: 70%;
+}
+
+.about h4 {
+    color: #000000;
+    font-family: ibm plex sans;
+    font-weight: 400;
+    font-size: 16pt;
+    padding-top: 20px;
+}
+
+.about .photo {
+    width: 1200px;
+}
+
+.about img {
+    width: 600px;
+    height: auto;
+    padding-top: 50px; 
+}
+
+
+.thirdcontainer {
+    background-color: #ffffff;
+    display: flex;
+    width: 1400px;
+    margin: 0 auto; 
+    height: 700px;   
+}
+
+.textblockthird {
+    padding-left: 100px;
+    width: 40%;
+}
+
+.about .photothird {
+    width: 2000px;
+}
+
+.about img {
+    width: 600px;
+    height: auto;
+    padding-top: 50px; 
+}
+
+.forthcontainer {
+    background-color: #799c44;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.aboutforth {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutforth h1 {
+    color: #ffffff;
+    font-family: concrete;
+    font-weight: 400;
+    font-size: 55pt;
+    padding-top: 180px;
+    padding-left: 30px;
+}
+
+.fifthcontainer{
+    background-color: #ffffff;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+}
+
+.titleblocks{
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 100px;
+    
+}
+
+.titleblocks h1{
+    font-family: ibm plex sans;
+    font-size: 23pt;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.titleblocks h2{
+    font-family: ibm plex sans;
+    font-size: 17pt;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+
+.blocks {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.eventone{
+    display: inline;
+    width: 33%;
+}
+
+.eventone img{
+    border: 2px solid #799c44;
+    border-radius: 15%;
+    width: 200px;
+}
+
+.eventone h3{
+    font-family: ibm plex sans;
+    font-size: 20pt;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.eventone h4{
+    font-family: ibm plex sans;
+    font-size: 17pt;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.eventtwo{
+    display: inline;
+    width: 33%;
+}
+
+.eventtwo img{
+    border: 2px solid #799c44;
+    border-radius: 15%;
+    width: 200px;
+}
+
+.eventtwo h3{
+    font-family: ibm plex sans;
+    font-size: 20pt;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.eventtwo h4{
+    font-family: ibm plex sans;
+    font-size: 17pt;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.eventthree{
+    display: inline;
+    width: 33%;
+}
+
+.eventthree img{
+    border: 2px solid #799c44;
+    border-radius: 15%;
+    width: 200px;
+}
+
+.eventthree h3{
+    font-family: ibm plex sans;
+    font-size: 20pt;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.eventthree h4{
+    font-family: ibm plex sans;
+    font-size: 17pt;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.sixthcontainer {
+    width: 100%;
+    background-color: #799c44;
+}
+
+.down {
+    background-color: #799c44;
+    max-width: 1200px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    height: 300px;
+    /* justify-content: space-between; */
+}
+
+.left {
+    width: 50%;
+}
+
+.menu ul{
+    padding-top: 40px;
+    list-style-type: none;  
+}
+
+.menu a {
+    font-family: ibm plex sans;
+    font-weight: 400;
+    font-size: 15pt;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.left h4 {
+    font-family: ibm plex sans;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+.right {
+    width: 20%;
+}
+
+.right img {
+    padding-top: 80px;
+    padding-left: 80px;
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.right img:hover {
+    scale: 1.05;
+    transition: 0.5s;
+}
